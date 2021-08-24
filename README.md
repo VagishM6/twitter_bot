@@ -3,9 +3,9 @@ This twitter bot is built using the Twitter API.
 This program has the functions needed to display the follower names, favourite posts and retweet the posts you need.
 
 ### required keys variables
-1. API key, Secret Key
-2. Access token, Secret Token
-3. follow_back variable can filled using a twitter user name you want to follow.
+1. API key, Secret Key from twitter API.
+2. Access token, Secret Token from twitter API.
+3. variables can be filled with your requirements, to produce desired results.
 
 ### needed library
 1. tweepy
