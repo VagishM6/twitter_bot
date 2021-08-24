@@ -38,7 +38,7 @@ for follow_back in tweepy.Cursor(api.followers).items():
 
 
 # favourite based on keyword
-print('Tweet Favouriting on progress...')
+print('Tweet Favouriting in progress...')
 favourite_item = 'inhumans'
 number_of_favourite = 200
 for tweet in tweepy.Cursor(api.search, favourite_item).items(number_of_favourite):
@@ -53,7 +53,7 @@ for tweet in tweepy.Cursor(api.search, favourite_item).items(number_of_favourite
 
 
 # retweet based on keyword
-print('Retweeting on progress...')
+print('Retweeting in progress...')
 retweet_item = 'inhumans'
 number_of_retweet = 200
 for tweet in tweepy.Cursor(api.search, retweet_item).items(number_of_retweet):
