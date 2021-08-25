@@ -10,6 +10,7 @@ This program has the functions needed to display the follower names, favourite p
 ### needed library
 1. tweepy
 > pip install tweepy
+2. time
 
 ### usage
 > python twitterbot.py
