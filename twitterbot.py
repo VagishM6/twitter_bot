@@ -1,9 +1,9 @@
 import tweepy
 import time
 
-# API key and secret key from Twitter API
+# API key and secret key from Twitter API, can be received from Twitter Developer page
 auth = tweepy.OAuthHandler('consumer_key', 'consumer_secret')
-# Access token and Secret Token from Twitter API
+# Access token and Secret Token from Twitter API, can be received from Twitter Developer page
 auth.set_access_token('access_token', 'access_token_secret')
 
 
